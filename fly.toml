@@ -50,4 +50,4 @@ processes = []
     timeout = "2s"
 
 [deploy]
-  release_command = "php /var/www/html/artisan migrate --force"
+  release_command = "php /var/www/html/artisan migrate:refresh --force"
